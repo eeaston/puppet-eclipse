@@ -6,8 +6,6 @@
 #
 
 class eclipse {
-    include apt_update
-    Class['apt_update']  ->
     package {
         ["eclipse", "eclipse-jdt", "eclipse-pde"]: 
             ensure => installed;
