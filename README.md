@@ -5,7 +5,7 @@ Eclipse plugin for Puppet.
 
 Provides eclipse via apt packaging, and allows module install via a custom class.
 
-Example manifest that will install Eclipse + Aptana + PyDev::
+Example manifest that will install Eclipse + Aptana + PyDev:
 
     include eclipse
     eclipse::module {'aptana_core':
